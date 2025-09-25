@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Emily Carroll">
+    <meta name="description" content="View artwork by the graphic designer, Emily Carroll">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="traveler.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Emily J. Carroll: About</title>
+</head>
+
+<body>
+    <!--start the page head-->
+    <header>
+        <span>Emily J. Carroll</span>
+    </header>
+
+    <!--start the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Photography</a></li>
+            <li class="active"><a href="request.html">Request Services</a></li>
+        </ul>
+    </nav>
+    <!--start the main content-->
+    <main>
+        <h1>Request Services</h1>
+
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First name*<input type="text" name="fname" required></label>
+                <label>Last name*<input type="text" name="lname" required></label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+                <label>Email*<input type="email" name="email" required placeholder="janedoe@gmail.com"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Services</legend>
+                <label><input type="checkbox" name="method" value="photography">Photography</label>
+                <label><input type="checkbox" name="method" value="logo">Logo Design</label>
+                <label><input type="checkbox" name="method" value="portrait">Acrylic or Digital Portrait</label>
+                <label><input type="checkbox" name="method" value="instruction">Art Instruction</label>
+                <label><input type="checkbox" name="method" value="webdesign">Web Design</label>
+                <label>Other:<input type="text" name="other"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Quality Options</legend>
+                <label><input type="radio" name="quality" value="fast">Good & Fast</label>
+                <label><input type="radio" name="quality" value="cheap">Good & Cheap</label>
+                <label><input type="radio" name="quality" value="driveway">Fast & Cheap</label>
+
+                <label>Expected Time Frame
+                    <select name="time">
+                        <option value="none">Please Select</option>
+                        <option value="urgent">1-2 Weeks</option>
+                        <option value="soon">1 Month</option>
+                        <option value="timely">2+ Months</option>
+                        <option value="eventually">Whenever Convenient</option>
+                    </select></label>
+            </fieldset>
+
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+            <input type="submit" value="Send Request">
+
+        </form>
+
+
+    </main>
+    <!--start the page footer-->
+    <footer>
+        <p>&copy;2025 &bull; Emily Carroll &bull; Web Essentials</p>
+    </footer>
+</body>
+
+</html>
