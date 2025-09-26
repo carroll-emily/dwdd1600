@@ -159,7 +159,7 @@ div.gallery figcaption{
 
 /* Form stuff here */
 .myForm fieldset {
-    border: apx solid #456990;
+    border: 1px solid #456990;
     border-radius: 3px;
     margin-bottom: 1rem;
 }
@@ -228,4 +228,5 @@ footer p {
     font-size: .8rem;
     color: #141414;
     letter-spacing: 2px;
+
 }
