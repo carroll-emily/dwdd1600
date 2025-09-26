@@ -200,7 +200,7 @@ div.gallery figcaption{
 }
 
 .myForm :required {
-    background-color: rgba(20, 20, 20, 0.1)
+    background-color: rgba(20, 20, 20, 0.1);
 }
 
 .myForm [type=submit] {
@@ -219,7 +219,7 @@ footer {
     background-color: #eef0f2;
     text-align: center;
     padding: 1rem 0;
-clear:both
+clear:both;
 
 }
 
@@ -230,3 +230,4 @@ footer p {
     letter-spacing: 2px;
 
 }
+
